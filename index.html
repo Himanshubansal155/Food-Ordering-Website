@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food ordering Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media=" screen and (max-width: 800px)" href="css/style2.css">
+    <link rel="stylesheet" media=" screen and (max-width: 400px)" href="css/style1.css">
+</head>
+<body>
+    <nav class="nav-bar">
+            <img src="img/ofos-logo.png" alt="">
+            <ul>
+                <li class="li-box"><a href="#home">Home</a></li>
+                <li class="li-box"><a href="#ourservices">Order</a></li>
+                <li class="li-box"><a href="#ourclients">Our Clients</a></li>
+                <li class="li-box"><a href="#contact-box">Contact Us</a></li>
+            </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary"> Welcome TO OFOS</h1>
+        <p>Meal delivery orders are typically on demand, and intended to be eaten right away, and include hot, already-prepared food.</p>
+        <p style="width: 65%">
+            Most commonly delivered meals are from fastfood chains like McDonald's, Pizza Hut,KFC,etc.
+        </p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services" id="ourservices">
+        <h1 class="h-primary center">Our Services</h1>
+        <div class="services-div">
+            <div class="box">
+                <img src="img/pizza.jpg" alt="">
+                <h2 class="h-secondary center">Pizza</h2>
+                <p>Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.</p>
+            </div>
+            <div class="box">
+                <img src="img/burger.jpg" alt="">
+                <h2 class="h-secondary center">Burger</h2>
+                <p>A burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled or flame broiled. Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chiles; condiments such as ketchup, mustard, mayonnaise", A hamburger topped with cheese is called a cheeseburger.</p>
+            </div>
+            <div class="box">
+                <img src="img/roti.jpg" alt="">
+                <h2 class="h-secondary center">Roll</h2>
+                <p>Spring rolls are a large variety of filled, rolled appetizers or dim sum found in East Asian, South Asian, Middle Eastern and Southeast Asian cuisine. The name is a literal translation of the Chinese chūn juǎn.Spring rolls are often eaten as snacks in the Indian sub-continent and are especially eaten during holidays such as Ramadan.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="client" >
+        <h1 class="h-primary center">Our Clients</h1>
+        <div class="images">
+            <img src="../img/pizaahut.jpg" alt="">
+            <img src="../img/swiggy.jpg" alt="">
+            <img src="../img/mac.jpg" alt="">
+            <img src="../img/subway.jpg" alt="">
+        </div>
+    </section>
+    <section class="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy;  All rights reserved!
+        </div>
+    </footer>
+</body>
+</html>
